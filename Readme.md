@@ -1,2 +1,1 @@
-Hello im ne
-w
+This is a rock-paper-scissors project
