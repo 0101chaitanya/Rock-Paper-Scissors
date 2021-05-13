@@ -1,0 +1,3 @@
+function computerplay() {
+    let array = []
+}
