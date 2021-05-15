@@ -38,7 +38,7 @@ function rock() {
     playerChoice = array[0];
     compare(playerChoice, computerSelection());
     if ((count % 5) == 0) {
-        if (confirm('Reset Stats ?')) {
+        if (prompt('Reset Stats ?')) {
             reset();
         }
     }
@@ -54,7 +54,7 @@ function paper() {
     playerChoice = array[1];
     compare(playerChoice, computerSelection());
     if ((count % 5) == 0) {
-        if (confirm('Reset Stats ?')) {
+        if (prompt('Reset Stats ?')) {
             reset();
         }
     }
@@ -70,7 +70,7 @@ function scissors() {
     playerChoice = array[2];
     compare(playerChoice, computerSelection());
     if ((count % 5) == 0) {
-        if (confirm('Reset Stats ?')) {
+        if (prompt('Reset Stats ?')) {
             reset();
         }
     }

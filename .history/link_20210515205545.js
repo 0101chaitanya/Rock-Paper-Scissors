@@ -16,20 +16,6 @@ function computerSelection() {
 
     return array[computerChoice];
 }
-function reset() {
-    count = 0;
-    won = 0;
-    lost = 0;
-    draws = 0;
-    you.textContent = '';
-    computer.textContent = '';
-
-    counter.textContent = ``;
-    wins.textContent = ``;
-    losses.textContent = ``;
-    ties.textContent = ``;
-    roundWin.textContent = '';
-}
 
 function rock() {
     you.textContent = `You choose : Rock`;
@@ -37,8 +23,8 @@ function rock() {
     counter.textContent = `Rounds : ${count}`;
     playerChoice = array[0];
     compare(playerChoice, computerSelection());
-    if ((count % 5) == 0) {
-        if (confirm('Reset Stats ?')) {
+    if (count == 5) {
+        if (prompt('Reset Stats ?')) {
             reset();
         }
     }
@@ -53,8 +39,8 @@ function paper() {
 
     playerChoice = array[1];
     compare(playerChoice, computerSelection());
-    if ((count % 5) == 0) {
-        if (confirm('Reset Stats ?')) {
+    if (count == 5) {
+        if (prompt('Reset Stats ?')) {
             reset();
         }
     }
@@ -69,8 +55,8 @@ function scissors() {
 
     playerChoice = array[2];
     compare(playerChoice, computerSelection());
-    if ((count % 5) == 0) {
-        if (confirm('Reset Stats ?')) {
+    if (count == 5) {
+        if (prompt('Reset Stats ?')) {
             reset();
         }
     }
@@ -98,4 +84,19 @@ function compare(a, b) {
     }
 
 }
+document.getElementById("repeat").addEventListener("click", reset);
 
+function reset() {
+    count = 0;
+    won = 0;
+    lost = 0;
+    draws = 0;
+    you.textContent = '';
+    computer.textContent = '';
+
+    counter.textContent = ``;
+    wins.textContent = ``;
+    losses.textContent = ``;
+    ties.textContent = ``;
+    roundWin.textContent = '';
+}
