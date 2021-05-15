@@ -1,0 +1,12 @@
+html{
+   margin: 0;   
+}
+.square{       
+    background-color: rgb(127, 255, 159);
+    font-size: 350px;    
+    display: inline-block;
+}
+#holder1{
+    position: fixed;
+}s
+

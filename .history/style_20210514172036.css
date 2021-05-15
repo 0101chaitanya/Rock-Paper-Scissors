@@ -1,0 +1,34 @@
+html{
+   margin: 0;  
+       font-family: 'Pacifico', cursive; 
+background-color:rgb(66, 66, 190);
+    }
+   h1  {
+     margin : 40px 35vh 0px auto;
+     border-style:dotted;
+     color:rgb(61, 189, 44) ;  
+    }
+.square{       
+    background-color: rgb(174, 255, 127);
+    font-size: 60px;    
+    display: inline-block;
+color: rgb(233, 47, 134);
+border-radius: 45%;
+border-width: 5px;
+border-color:aquamarine
+}
+#holder1 {
+position: relative;
+top: 35vh;
+left :35vw;  
+}
+#holder2 {
+position: relative;
+top: 35vh;
+left :38vw;  
+}
+#holder3 {
+position: relative;
+top: 35vh;
+left :41vw;  
+}

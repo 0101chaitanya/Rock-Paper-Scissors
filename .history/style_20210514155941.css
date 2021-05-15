@@ -1,0 +1,16 @@
+html{
+   margin: 0;   
+}
+.square{
+   }       
+#holder2 {
+    border-style:double;
+    block-size: auto;
+    padding: auto;
+    background-color: aquamarine;
+    font-size: 500px;
+
+    
+display: inline-block;
+
+}

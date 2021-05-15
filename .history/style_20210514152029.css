@@ -1,0 +1,11 @@
+html{
+   margin: 0;   
+}
+.square{
+    display: inline-block;
+}       
+#holder1 {
+    border-style:dotted;
+    padding: -20px;
+    background-color: aqua;
+}

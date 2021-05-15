@@ -1,0 +1,8 @@
+html{
+    background-color: rgba(0, 0, 0, 0.89);
+}
+.square{
+    border-color: bisque;
+    border-style: double;
+    display: inline-block;
+}

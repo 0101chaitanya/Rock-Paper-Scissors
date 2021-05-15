@@ -1,0 +1,12 @@
+html{
+   margin: 0;   
+}
+.square{
+    display: flex;
+}       
+#holder1 {
+    border-style:dotted;
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}

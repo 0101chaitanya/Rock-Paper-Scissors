@@ -1,0 +1,9 @@
+html{
+   margin: 0;   
+}
+.square{
+    display: inline-block;
+}       
+#holder1 {
+    border-style:dotted
+}

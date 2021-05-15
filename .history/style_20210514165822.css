@@ -1,0 +1,27 @@
+html{
+   margin: 0;   
+}
+.square{       
+    background-color: rgb(174, 255, 127);
+    font-size: 55px;    
+    display: inline-block;
+color: rgb(233, 47, 134);
+border-radius: 45%;
+border-width: 5px;
+border-color:aquamarine
+}
+#holder1 {
+position: relative;
+top: 35vh;
+left :35vw;  
+}
+#holder2 {
+position: relative;
+top: 35vh;
+left :38vw;  
+}
+#holder3 {
+position: relative;
+top: 35vh;
+left :41vw;  
+}

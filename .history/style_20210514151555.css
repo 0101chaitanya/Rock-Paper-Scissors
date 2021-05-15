@@ -1,0 +1,10 @@
+html{
+   margin: 0;   
+}
+.square{
+    display: inline-block;
+    border-color: bisque;
+    border-style: double;
+    position:fixed;
+     
+}       

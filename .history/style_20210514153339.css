@@ -1,0 +1,16 @@
+html{
+   margin: 0;   
+}
+.square{
+   }       
+#holder1 {
+    background-image: url(images/rock.png);
+    border-style:dotted;
+    
+    padding-top: 0;
+    margin: 0;
+    
+display: inline-block;
+position: fixed;
+
+}

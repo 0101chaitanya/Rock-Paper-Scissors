@@ -1,0 +1,17 @@
+html{
+   margin: 0;   
+}
+.square{
+   }       
+#holder1 {
+    background-image: url(images/rock.png);
+   border-style:double;
+    block-size: 20px;
+    padding: auto;
+    background-color: aquamarine;
+
+    
+display: block;
+position: ;
+
+}

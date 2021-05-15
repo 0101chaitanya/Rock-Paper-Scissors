@@ -1,0 +1,14 @@
+html{
+   margin: 0;   
+}
+.square{       
+    border-style:double;
+    block-size: auto;
+    padding: auto;
+    background-color: rgb(127, 255, 159);
+    font-size: 450px;
+
+    
+display: inline-block;
+
+}
